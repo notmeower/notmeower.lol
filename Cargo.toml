@@ -1,0 +1,13 @@
+[package]
+name = "notmeowerlol"
+version = "0.1.0"
+edition = "2021"
+authors = ["notmeower <notmeower@proton.me>"]
+description = "herpful"
+license = "MIT"
+
+[dependencies]
+actix-web = "4.4"
+actix-files = "0.6"
+tokio = { version = "1.35", features = ["full"] }
+env_logger = "0.10"
